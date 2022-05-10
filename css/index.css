@@ -1,4 +1,4 @@
-div{
+.card{
     background-color:lightgrey;
     border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
@@ -6,6 +6,38 @@ div{
     margin-right: auto;
     max-width: 70vw;
     margin-bottom:2vh;
+    padding:1vmax;
+}
+#teamCard{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#linksCard{
+    display:flex;
+    justify-content: space-evenly;
+    max-height: 15vh;
+}
+
+.logoHref{
+    max-width:20%;
+}
+
+.teamImg{
+    max-width: 100%;
+}
+.logoImg{
+    width:100%;
+    height: 100%;
+}
+
+.subCard{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 1vmax;
+    padding:5px;
+    border-radius: 5px;
 }
 
 ul{
