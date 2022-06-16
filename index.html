@@ -1,129 +1,433 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-        <script src="js/index.js"></script>
-        <title>Straatintimidatie</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>The grey Area</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
-        <img src="assets/images/Title.png" alt="groepfoto" class="groupImg">
-        <div class="card" id="teamCard">
-            <div class="subCard" id="Onno">
-                <img src="assets/images/Onno.jpg" alt="Onno Prins" class="teamImg">
-                <p>
-                    Onno Prins: Contactpersoon
-                    <ul>
-                        <li>Contact behouden en bewaken met de opdrachtgever.</li>
-                        <li>Contact leggen met de doelgroep en stakeholders.</li>
-                        <li>Contact leggen en behouden met randzaken (Stadslab, instanties, etc.)</li>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">The grey Area</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-7 px-0 px-lg-3 rounded" href="#portfolio">Ontwerpstappen</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-7 px-0 px-lg-3 rounded" href="#research">Research</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-7 px-0 px-lg-3 rounded" href="#about">Over ons</a></li>
                     </ul>
-                </p>
-            </div>
-            <div class="subCard" id="Femke">
-                <img src="assets/images/Femke.jpg" alt="Femke Noordijk" class="teamImg">
-                <p>
-                    Femke Noordijk: Team captain
-                    <ul>
-                        <li>Handhaven van de planning.</li>
-                        <li>Opstellen van deadlines.</li>
-                        <li>Vertegenwoordigen van het team en verantwoorden van keuzes naar de opdrachtgever.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="subCard" id="Iris">
-                <img src="assets/images/Iris.jpg" alt="Iris Penning" class="teamImg">
-                <p>
-                    Iris Penning: Notulist
-                    <ul>
-                        <li>Miro bord en google drive bijhouden.</li>
-                        <li>Planning maken en communiceren naar de teamleden.</li>
-                        <li>Notulen maken van vergaderingen en feedbackmomenten.</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="subCard" id="Joel">
-                <img src="assets/images/Joel.jpg" alt="Joel Heezen" class="teamImg">
-                <p>
-                    Joel Heezen: Programmeur
-                    <ul>
-                        <li>One pager bijhouden.</li>
-                        <li>Programmeren bijhouden (gestructureerd).</li>
-                        <li>Informeren over updates/ aanpassingen binnen het programmeren.</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-        <div class="card" id="concepten">
-            <h3>Concepten</h3>
-            <h4 class="leftHeader">Zo voelt dat dus</h4>
-            <div class="textBox">
-                <p>
-                    Een concept waarbij er gebruik wordt gemaakt van een <b>VR-bril</b> om (potentiële) plegers van SSI en omstanders een idee krijgen van welke <b>emoties en gevoelens</b> slachtoffers krijgen wanneer zij te maken krijgen met SSI. Dit zal zorgen voor meer <b>begrip</b> voor de slachtoffers waardoor plegers minder snel (onbewust) SSI zullen plegen en omstanders eerder in zullen grijpen. Slachtoffers voelen zich namelijk vaak onbegrepen of alleen in zo'n situatie. In de ideale situatie zouden wij er een <b>5D experience</b> van willen maken waarbij de gebruiker het bijvoorbeeld ineens heel warm krijgt of een verhoogde hartslag ervaart.
-                </p>
-                <img src="assets/images/concept-1.png" alt="concept1 icoon" class="textImg">
-            </div>
-            <h4 class="rightHeader">Wat zou jij doen?</h4>
-            <div class="textBox">
-                <img src="assets/images/concept-2.png" alt="concept2 icoon" class="textImg">
-                <p>
-                    Een concept waarbij de gebruiker een <b>A/B/C keuze</b> krijgt tussen acties die een omstander of een slachtoffer in een situatie van SSI kan ondernemen (zoals bij theorie voor rijbewijs, dus met visualisatie). Dit kan gedaan worden in een <b>onderwijsprogramma of op social media</b> (voting). Hiermee creëer je bij zowel slachtoffers als omstanders bewustzijn van waar hun <b>grens</b> ligt. Na een keuze voor A, B of C ziet de gebruiker ook wat een slachtoffer of een dader hiervan vindt. Daarmee krijgt de gebruiker een beeld van gewenst en ongewenst gedrag.
-                </p>
-            </div>
-            <h4 class="leftHeader">Voor de toekomst</h4>
-            <div class="textBox">
-                <p>
-                    <b>Educatieve game</b> (voor basisschoolleerlingen groep 7-8) over SSI en specifiek hierin de <b>bewustmaking van het gedrag</b> en de definitie van seksuele straatintimidatie en waar de grens hierin ligt. Dit is een concept voor de toekomst van Rotterdam omdat kinderen al op jonge leeftijd leren over welk gedrag niet wordt getolereerd. Nu leren zij namelijk pas over SSI als dit al veelvuldig wordt gepleegd in hun omgeving waardoor zij te veel accepteren en bovendien niet weten waar hun eigen grenzen liggen.
-                </p>
-                <img src="assets/images/concept-3.png" alt="concept3 icoon" class="textImg">
-            </div>
-        </div>
-        <div class="card" id="deskresearch">
-            <h3>Research</h3>
-            <h4 class="leftHeader">Het Probleem</h4>
-            <div class="textBox">
-                <p>
-                    Rondom Seksuele Straat Intimidatie (SSI) is een grijs gebied waarin het lastig is om te bepalen wanneer iets SSI is. Dit grijze gebied zorgt ervoor dat onder anderen de wetgeving hierover in Rotterdam is komen te vervallen. Plegers weten vaak dus ook niet dat zij SSI hebben gepleegd. Slachtoffers en omstanders hebben niet door dat zij in contact zijn gekomen met SSI.
-                <br><br>
-                    Uit ons onderzoek is gebleken dat onze doelgroep vooral op jongere leeftijd voor het eerst in contact is gekomen met SSI. Echter besteed het onderwijs hier (bijna) geen aandacht aan tijdens seksuele voorlichtingslessen in groep 7 en 8.
-                </p>
-                <div id="question">
-                    <p id="questionText">
-                        Hoe kunnen wij SSI zodanig definiëren dat wij de plegers, de omstanders en de slachtoffers op jonge leeftijd (groep 7 en 8) op een educatief aantrekkelijke manier bewustzijn geven over wat SSI is, en hoe dit ervaren wordt door slachtoffers?
-                    </p>
                 </div>
             </div>
-            <h4 class="rightHeader">Onderzoeksplan</h4>
-            <div class="textBox">
-                <img src="assets/images/Deskresearch.png" alt="deskresearch" class="textImg">
-                <p>
-                    Wij zijn begonnen met het uitvoeren van Fieldresearch over de actuele stand van zaken rondom SSI. Hierin zijn wij ook naar de verschillende perspectieven gaan kijken (slachtoffers, omstanders en plegers). Hieruit bleek dat het wel eens gebeurt dat na een incident zowel het slachtoffer als de pleger pas beseft dat er spraken was van SSI. Om hier meer over te weten te komen zijn wij fieldresearch gaan uitvoeren in de vorm van een interview en een cardsorting. Hieruit konden wij concluderen dat het grijze gebied voor iedereen lastig in te schatten. Ook viel het op dat de doelgroep op vrij jonge leeftijd in contact komt met SSI (10-14 jaar). Dit gaf ons het idee om onze ontwerpvraag aan te scherpen ( zie hierboven).
-                </p>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center bg-group">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">The Grey Area</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
             </div>
-            <h4 class="leftHeader">Resultaten</h4>
-            <div class="textBox">
-                <ul class="textList">
-                    <li>Uit ons onderzoek is gebleken dat zowel mannen als vrouwen wel willen ingrijpen, maar niet weten hoe zij dit moeten doen zonder de situatie te laten escaleren. Zij zijn namelijk bang voor de reactie van de pleger op het moment dat deze aangesproken wordt op zijn/haar gedrag. Doordat zij niet weten hoe zij moeten reageren op SSI, worden situatie met SSI vaak genegeerd door zowel het slachtoffer als omstanders.</li><br>
-                    <li>Momenten waarop SSI gepleegd worden, houden vaak lang aan. Omstanders proberen eerst de situatie in te schatten voordat zij ingrijpen. Slachtoffers hebben het gevoel dat zij er alleen voor staan zodra zij in contact komen met SSI. Zij hebben dit gevoel doordat omstanders vaak de situatie lijken te negeren.</li><br>
-                    <li>Mannen en vrouwen krijgen op jonge leeftijd te maken met SSI. Vrouwen vaak als slachtoffer en mannen als omstander. Vrouwen krijgen aanzienlijk eerder te maken met SSI in vergelijking met mannen.</li>
-                </ul>
-                <!-- <img src="assets/images/graph.png" alt="grafiek" class="textImg"> -->
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Eerste concepten</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/concept-1.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/concept-2.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/concept-3.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section portfolio" id="research">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Research</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/research1.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/Deskresearch.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/graph.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Over ons</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-3 ms-auto"><img class=team-img src="assets/img/Onno.jpg" alt="Onno Prins" class="teamImg">
+                        <p class="lead">
+                            Onno Prins: Contactpersoon
+                            <ul class="lead">
+                                <li>Contact behouden en bewaken met de opdrachtgever.</li>
+                                <li>Contact leggen met de doelgroep en stakeholders.</li>
+                                <li>Contact leggen en behouden met randzaken (Stadslab, instanties, etc.)</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 me-auto"><img class=team-img src="assets/img/Femke.jpg" alt="Femke Noordijk" class="teamImg">
+                        <p class="lead">
+                            Femke Noordijk: Team captain
+                            <ul class="lead">
+                                <li>Handhaven van de planning.</li>
+                                <li>Opstellen van deadlines.</li>
+                                <li>Vertegenwoordigen van het team en verantwoorden van keuzes naar de opdrachtgever.</li>
+                            </ul> 
+                        </p>
+                    </div>
+                    <div class="col-lg-3 me-auto"><img class=team-img src="assets/img/Iris.jpg" alt="Femke Noordijk" class="teamImg">
+                        <p class="lead">
+                            Iris Penning: Notulist
+                            <ul class="lead">
+                                <li>Miro bord en google drive bijhouden.</li>
+                                <li>Planning maken en communiceren naar de teamleden.</li>
+                                <li>Notulen maken van vergaderingen en feedbackmomenten.</li>
+                            </ul> 
+                        </p>
+                    </div>
+                    <div class="col-lg-3 me-auto"><img class=team-img src="assets/img/Joel.jpg" alt="Femke Noordijk" class="teamImg">
+                        <p class="lead">
+                            Joel Heezen: Programmeur
+                            <ul class="lead">
+                                <li>One pager bijhouden.</li>
+                                <li>Programmeren bijhouden (gestructureerd).</li>
+                                <li>Informeren over updates/ aanpassingen binnen het programmeren.</li>
+                            </ul> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Locatie</h4>
+                        <p class="lead mb-0">
+                            Wijnhaven 99
+                            <br />
+                            Rotterdam
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Links</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://drive.google.com/drive/folders/1jvDpqqkR5lcFFf4G51pHaIqL0PA90KBm?usp=sharing" target="_blank"><i class="fab fa-fw fa-google-drive"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://trello.com/b/pgwBMosw/dc8-ssi-gemeente-rotterdam" target="_blank"><i class="fab fa-fw fa-trello"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://miro.com/app/board/uXjVO4haEM4=/?share_link_id=859507805480" target="_blank"><i class="fab fa-solid fa-m"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; The Grey Area 2022</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Zo voelt dat dus</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/concept-1.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        Een concept waarbij er gebruik wordt gemaakt van een VR-bril om (potentiële) plegers van SSI en omstanders een idee krijgen van welke emoties en gevoelens slachtoffers krijgen wanneer zij te maken krijgen met SSI. Dit zal zorgen voor meer begrip voor de slachtoffers waardoor plegers minder snel (onbewust) SSI zullen plegen en omstanders eerder in zullen grijpen. Slachtoffers voelen zich namelijk vaak onbegrepen of alleen in zo'n situatie. In de ideale situatie zouden wij er een 5D experience van willen maken waarbij de gebruiker het bijvoorbeeld ineens heel warm krijgt of een verhoogde hartslag ervaart.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card" id="ontwerprichtlijnen">
-            <h3>Ontwerprichtlijnen</h3>
-            <img src="assets/images/probleem.png" alt="framing the problem" class="textImg"><br>
-            <img src="assets/images/aspecten.png" alt="welke aspecten doen er toe" class="textImg"><br>
-            <img src="assets/images/principles.png" alt="design principles" class="textImg">
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Wat zou jij doen?</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/concept-2.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Een concept waarbij de gebruiker een A/B/C keuze krijgt tussen acties die een omstander of een slachtoffer in een situatie van SSI kan ondernemen (zoals bij theorie voor rijbewijs, dus met visualisatie). Dit kan gedaan worden in een onderwijsprogramma of op social media (voting). Hiermee creëer je bij zowel slachtoffers als omstanders bewustzijn van waar hun grens ligt. Na een keuze voor A, B of C ziet de gebruiker ook wat een slachtoffer of een dader hiervan vindt. Daarmee krijgt de gebruiker een beeld van gewenst en ongewenst gedrag.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card" id="linksCard">
-            <a href="https://drive.google.com/drive/folders/1jvDpqqkR5lcFFf4G51pHaIqL0PA90KBm?usp=sharing" class="logoHref" target="_blank"><img src="assets/images/drive.png" alt="google drive logo" class="logoImg"></a>
-            <a href="https://trello.com/b/pgwBMosw/dc8-ssi-gemeente-rotterdam" class="logoHref" target="_blank"><img src="assets/images/trello.png" alt="trello logo" class="logoImg"></a>
-            <a href="https://miro.com/app/board/uXjVO4haEM4=/?share_link_id=859507805480" class="logoHref" target="_blank"><img src="assets/images/miro.png" alt="miro logo" class="logoImg"></a>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Voor de toekomst</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/concept-3.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Educatieve game (voor basisschoolleerlingen groep 7-8) over SSI en specifiek hierin de bewustmaking van het gedrag en de definitie van seksuele straatintimidatie en waar de grens hierin ligt. Dit is een concept voor de toekomst van Rotterdam omdat kinderen al op jonge leeftijd leren over welk gedrag niet wordt getolereerd. Nu leren zij namelijk pas over SSI als dit al veelvuldig wordt gepleegd in hun omgeving waardoor zij te veel accepteren en bovendien niet weten waar hun eigen grenzen liggen.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Het Probleem</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/research1.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Rondom Seksuele Straat Intimidatie (SSI) is een grijs gebied waarin het lastig is om te bepalen wanneer iets SSI is. Dit grijze gebied zorgt ervoor dat onder anderen de wetgeving hierover in Rotterdam is komen te vervallen. Plegers weten vaak dus ook niet dat zij SSI hebben gepleegd. Slachtoffers en omstanders hebben niet door dat zij in contact zijn gekomen met SSI.<br><br>
+
+                                        Uit ons onderzoek is gebleken dat onze doelgroep vooral op jongere leeftijd voor het eerst in contact is gekomen met SSI. Echter besteed het onderwijs hier (bijna) geen aandacht aan tijdens seksuele voorlichtingslessen in groep 7 en 8.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Onderzoeksplan</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/Deskresearch.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Wij zijn begonnen met het uitvoeren van Fieldresearch over de actuele stand van zaken rondom SSI. Hierin zijn wij ook naar de verschillende perspectieven gaan kijken (slachtoffers, omstanders en plegers). Hieruit bleek dat het wel eens gebeurt dat na een incident zowel het slachtoffer als de pleger pas beseft dat er spraken was van SSI. Om hier meer over te weten te komen zijn wij fieldresearch gaan uitvoeren in de vorm van een interview en een cardsorting. Hieruit konden wij concluderen dat het grijze gebied voor iedereen lastig in te schatten. Ook viel het op dat de doelgroep op vrij jonge leeftijd in contact komt met SSI (10-14 jaar). Dit gaf ons het idee om onze ontwerpvraag aan te scherpen ( zie hierboven).</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Resultaten</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/graph.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <ul>
+                                            <li>Uit ons onderzoek is gebleken dat zowel mannen als vrouwen wel willen ingrijpen, maar niet weten hoe zij dit moeten doen zonder de situatie te laten escaleren. Zij zijn namelijk bang voor de reactie van de pleger op het moment dat deze aangesproken wordt op zijn/haar gedrag. Doordat zij niet weten hoe zij moeten reageren op SSI, worden situatie met SSI vaak genegeerd door zowel het slachtoffer als omstanders.</li><br>
+                                            <li>Momenten waarop SSI gepleegd worden, houden vaak lang aan. Omstanders proberen eerst de situatie in te schatten voordat zij ingrijpen. Slachtoffers hebben het gevoel dat zij er alleen voor staan zodra zij in contact komen met SSI. Zij hebben dit gevoel doordat omstanders vaak de situatie lijken te negeren.</li><br>
+                                            <li>Mannen en vrouwen krijgen op jonge leeftijd te maken met SSI. Vrouwen vaak als slachtoffer en mannen als omstander. Vrouwen krijgen aanzienlijk eerder te maken met SSI in vergelijking met mannen.</li>
+                                        </ul>
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
