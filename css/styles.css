@@ -7822,6 +7822,7 @@ textarea.form-control-lg {
 .bg-group {
   background-image: url(../assets/img/groepsfoto.jpg);
   background-size: 100% 100%;
+  min-height: 90vh;
 }
 
 .bg-secondary {
