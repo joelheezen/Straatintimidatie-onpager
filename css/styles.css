@@ -603,13 +603,31 @@ progress {
   max-width: 100%;
   min-width: 100%;
   height: auto;
-  max-height: 50vh;
+  object-fit: cover;
+  max-height: 40vh;
+  min-height: 40vh;
+}
+
+.fluid-click{
+  object-fit:fill;
+  max-height:80vh;
+}
+
+#pathways-img{
+  min-width: 0;
 }
 
 .team-img {
   max-width: 100%;
   min-width: 100%;
   height: auto;
+  object-fit: cover;
+  max-height: 30vh;
+  min-height: 30vh;
+}
+
+#joel{
+  object-position: 0 0;
 }
 
 .img-thumbnail {
@@ -7822,7 +7840,7 @@ textarea.form-control-lg {
 .bg-group {
   background-image: url(../assets/img/groepsfoto.jpg);
   background-size: 100% 100%;
-  min-height: 90vh;
+  min-height: 110vh;
 }
 
 .bg-secondary {
