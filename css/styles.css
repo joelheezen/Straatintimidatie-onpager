@@ -11466,6 +11466,10 @@ html {
   color: #6c757d;
 }
 
+.probleem-img{
+  object-fit:fill;
+}
+
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
