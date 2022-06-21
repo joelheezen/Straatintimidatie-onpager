@@ -153,6 +153,16 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+.bordspel-img{
+  max-width: 100%;
+  border-radius: 5%;
+}
+.bordspel-txt{
+  
+}
+.center-txt{
+  text-align: center;
+}
 p {
   margin-top: 0;
   text-align: left;
